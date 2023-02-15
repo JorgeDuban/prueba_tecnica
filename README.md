@@ -27,4 +27,5 @@ Se dan 3 opciones de generación de Reporte en PDF:
 
 Como un plus rápido, la aplicación cuanta con un chatbot proporcionado por zendesk.com para que el usuario se comunique con el desarrollador o relacionado en caso de alguna duda.
 Adicional a esto, se crea el archivo .htaccess y se ingresan algunas restricciones que redun algunas vulnerabilidades a ataques como protección contra XSS, prevención de que la pagina sea abierta en un frame o iframe, Negación de acceso al archivo raíz, ocultación de cabeceras/encabezados, reducción de ataques basados en confusión de tipos mime. Agregaciones de buenas prácticas en HTML para evitar robo de información.
+
 PD: No se alcanzó a crear API para consumir una tabla.

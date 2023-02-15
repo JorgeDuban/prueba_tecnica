@@ -12,8 +12,9 @@ Está enfocado en el diseño de una aplicación web trabajándolo de forma local
 
 Todo el proyecto está diseñado en CodeIgniter (por con defecto PHP), teniendo en cuenta su diseño MVC y rutas. Se implementado Bootstrap 4 para el front-end.
 
-Cuenta con un Login y Registro de Usuarios (La parte de validación del Login no está funcional, pues se presentó un error y a causa del tiempo no se pudo solucionar).
-Luego de entrar desde el Login, lo primero es mostrar por defecto las canciones registradas y su Artista.
+Cuenta con un Login y Registro de Usuarios conectado a una tabla en BD llamada 'Usuarios' (La parte de validación del Login no está funcional, pues se presentó un error y a causa del tiempo no se pudo solucionar).
+
+Luego de entrar desde el Login, lo primero en mostrar por defecto son las canciones registradas y su Artista.
 
 El CRUD trabaja sobre la Tabla 'Canciones' la cual contiene una llave foránea para traer la información del 'Artista'.
 

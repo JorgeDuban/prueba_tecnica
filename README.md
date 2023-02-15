@@ -3,7 +3,7 @@
 
 Cordial Saludo.
 
-El CRUD está basado en las tablas relacionales 'Canciones' y 'Artistas', con una relación de uno a muchos con el Gestor de BD SQLSERVER.
+El CRUD está basado en las tablas relacionales 'Canciones' y 'Artistas', con una relación de uno a muchos con el Gestor de BD SQLSERVER. El back up de la BD se encuentra con el nombre 'Musica.bak'.
 
 Ingresando a app/Config/Database.php, se configura la base de datos teniendo en cuenta los atributos generales y el puerto dinámico con el cual está trabajando el Gestor de BD (muy importante. PD: Esta configuración también se puede realizar desde el archivo .env).
 La dirección raíz es http://localhost/prueba_tecnica/public/

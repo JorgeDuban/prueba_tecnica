@@ -1,0 +1,10 @@
+Options -Indexes
+
+Header append X-Frame-Options SAMEORIGIN
+<IfModule mod_headers.c>
+    Header unset X-Powered-By
+    Header always unset X-Powered-By
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "DENY"
+</IfModule>

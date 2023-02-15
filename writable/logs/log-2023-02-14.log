@@ -1,0 +1,251 @@
+CRITICAL - 2023-02-14 19:38:31 --> Invalid file: "canciones/listars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canciones/listars.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('canciones/listars', [], true)
+ 3 APPPATH\Controllers\Canciones.php(12): view('canciones/listars')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 19:39:33 --> Invalid file: "canciones/listars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('canciones/listars.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('canciones/listars', [], true)
+ 3 APPPATH\Controllers\Canciones.php(12): view('canciones/listars')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 19:47:57 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Models\Cancion.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Cancion.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cancion')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cancion')
+ 4 APPPATH\Controllers\Canciones.php(12): spl_autoload_call('App\\Models\\Cancion')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 19:49:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'Musica.dbo.cancion' no es válido.
+CRITICAL - 2023-02-14 19:49:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de objeto 'Musica.dbo.cancion' no es válido.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "Musica"."dbo"."cancion"
+ORDER BY "id" ASC', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Canciones.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 19:50:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+CRITICAL - 2023-02-14 19:50:13 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "Musica"."dbo"."canciones"
+ORDER BY "id" ASC', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Canciones.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 19:50:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+CRITICAL - 2023-02-14 19:50:28 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "Musica"."dbo"."canciones"
+ORDER BY "id" ASC', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Canciones.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 19:50:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+CRITICAL - 2023-02-14 19:50:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "Musica"."dbo"."canciones"
+ORDER BY "id" ASC', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Canciones.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 19:50:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+CRITICAL - 2023-02-14 19:50:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "Musica"."dbo"."canciones"
+ORDER BY "id" ASC', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Canciones.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-14 19:50:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+CRITICAL - 2023-02-14 19:50:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]El nombre de columna 'id' no es válido.
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "Musica"."dbo"."canciones"
+ORDER BY "id" ASC', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Canciones.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 21:22:11 --> syntax error, unexpected '{', expecting '('
+in APPPATH\Models\Cancion.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Cancion.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cancion')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cancion')
+ 4 APPPATH\Controllers\Canciones.php(15): spl_autoload_call('App\\Models\\Cancion')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 21:32:25 --> Undefined variable: canciones
+in APPPATH\Views\canciones\listar.php on line 12.
+ 1 APPPATH\Views\canciones\listar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: canciones', 'APPPATH\\Views\\canciones\\listar.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\canciones\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('canciones/listar', [], true)
+ 5 APPPATH\Controllers\Canciones.php(20): view('canciones/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 21:36:02 --> Undefined property: App\Controllers\Canciones::$Cancion
+in APPPATH\Controllers\Canciones.php on line 16.
+ 1 APPPATH\Controllers\Canciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Canciones::$Cancion', 'APPPATH\\Controllers\\Canciones.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 21:47:29 --> Undefined variable: canciones
+in APPPATH\Views\canciones\listar.php on line 24.
+ 1 APPPATH\Views\canciones\listar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: canciones', 'APPPATH\\Views\\canciones\\listar.php', 24, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\canciones\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('canciones/listar', [], true)
+ 5 APPPATH\Controllers\Canciones.php(20): view('canciones/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 21:52:00 --> Cannot use object of type stdClass as array
+in APPPATH\Views\canciones\listar.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('canciones/listar', [], true)
+ 4 APPPATH\Controllers\Canciones.php(20): view('canciones/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 21:53:35 --> Cannot use object of type stdClass as array
+in APPPATH\Views\canciones\listar.php on line 26.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('canciones/listar', [], true)
+ 4 APPPATH\Controllers\Canciones.php(20): view('canciones/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 21:54:03 --> Cannot use object of type stdClass as array
+in APPPATH\Views\canciones\listar.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('canciones/listar', [], true)
+ 4 APPPATH\Controllers\Canciones.php(20): view('canciones/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 22:57:31 --> Allowed fields must be specified for model: "App\Models\Cancion"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cancion')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Canciones.php(48): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 22:58:37 --> Allowed fields must be specified for model: "App\Models\Cancion"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cancion')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Canciones.php(48): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 23:04:41 --> Call to a member function insert() on array
+in APPPATH\Controllers\Canciones.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 23:10:08 --> Allowed fields must be specified for model: "App\Models\Cancion"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cancion')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Canciones.php(49): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 23:11:08 --> Allowed fields must be specified for model: "App\Models\Cancion"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cancion')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Canciones.php(49): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 23:11:21 --> Allowed fields must be specified for model: "App\Models\Cancion"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cancion')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Canciones.php(49): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 23:12:56 --> Allowed fields must be specified for model: "App\Models\Cancion"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cancion')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Canciones.php(49): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 23:58:48 --> Allowed fields must be specified for model: "App\Models\Cancion"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Cancion')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Canciones.php(45): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Canciones->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Canciones))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -22,7 +22,7 @@ El CRUD trabaja sobre la Tabla 'Canciones' la cual contiene una llave foránea p
 Se presentan las opciones de Crear, Modificar y Borrar una Canción (el Buscar se trae en el anterior punto).
 
 Se dan 3 opciones de generación de Reporte en PDF:
-   -La primera utiliza la librería DOMPDF la cual está dentro de 'public/librerias/', sin embargo, el PDF generado presenta algún inconveniente al ser abierto por        determinadas aplicaciones.
+   -La primera utiliza la librería DOMPDF la cual está dentro de 'app/Libraries', sin embargo, el PDF generado presenta algún inconveniente al ser abierto por        determinadas aplicaciones.
    -La segunda opción muestra una tabla más limpia con la opción de Imprimir la ventana mediante JavaScript.
    -La terca opción permite Imprimir la Ventana tal como se muestra al ingresar después del Login mediante JavaScript.
 

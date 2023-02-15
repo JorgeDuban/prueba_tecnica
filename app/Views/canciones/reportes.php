@@ -49,7 +49,7 @@ $html=ob_get_clean();
 //Todo lo que esta entre el ob_start sera alacenado dentro de la varible html
 //echo $html;
 
-require_once '../public/librerias/dompdf/autoload.inc.php';
+require_once '../app/Libraries/dompdf/autoload.inc.php';
 use Dompdf\Dompdf;
 use Dompdf\Option;
 use Dompdf\Exception as DomException;

@@ -17,12 +17,13 @@ Cuenta con un Login y Registro de Usuarios conectado a una tabla en BD llamada '
 
 Luego de entrar desde el Login, lo primero en mostrar por defecto son las canciones registradas y su Artista.
 
-El CRUD trabaja sobre la Tabla 'Canciones' la cual contiene una llave foránea para traer la información del 'Artista'.
-
 Se presentan las opciones de Crear, Modificar y Borrar una Canción (el Buscar se trae en el anterior punto).
 
+El CRUD trabaja sobre la Tabla 'Canciones' la cual contiene una llave foránea para traer la información del 'Artista'.
+
 Se dan 3 opciones de generación de Reporte en PDF:
-   -La primera utiliza la librería DOMPDF la cual está dentro de 'app/Libraries', sin embargo, el PDF generado presenta algún inconveniente al ser abierto por        determinadas aplicaciones.
+
+   -La primera utiliza la librería DOMPDF la cual está dentro de 'app/Libraries'.
    -La segunda opción muestra una tabla más limpia con la opción de Imprimir la ventana mediante JavaScript.
    -La terca opción permite Imprimir la Ventana tal como se muestra al ingresar después del Login mediante JavaScript.
 

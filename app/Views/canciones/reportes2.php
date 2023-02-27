@@ -12,9 +12,10 @@
 <h1 class="card-body text-center">CANCIONES</h1>
 <div class="container">
         <table class="table table-light">
+        <?php $i=1;?>
             <thead class="thead-light">
                 <tr>
-                    <th>#</th>
+                    <th>#</th>                  
                     <th>Nombre de la Canción</th>
                     <th>Nombre del Artista</th>
                     <th>Duración</th>
@@ -24,7 +25,8 @@
             <tbody>
             <?php foreach($Generar_reporte as $cancion):?>
                 <tr>
-                    <td><?php echo $cancion->id_cancion;?></td>
+                
+                    <td><?php echo $i++?></td>
                     <td><?php echo $cancion->Nombre_Cancion;?></td>
                     <td><?php echo $cancion->Nombre_Artista;?></td>
                     <td><?php echo $cancion->duracion;?></td>

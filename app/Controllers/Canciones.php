@@ -79,7 +79,7 @@ class Canciones extends Controller
                 'duracion'=>$this->request->getPost('duracion'),
                 'fecha'=>$this->request->getPost('fecha')
             ];
-            $cancion->protect(false)->insert($datos);
+            $cancion->insert($datos);
             return $this->response->redirect(site_url('/listar'));
         
     }
@@ -134,7 +134,7 @@ class Canciones extends Controller
 
         }
         //Actulizamos en base al id y enviamos datos
-        $cancion->protect(false)->update($id_cancion, $datos);
+        $cancion->update($id_cancion, $datos);
         
         return $this->response->redirect(site_url('/listar'));
        

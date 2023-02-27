@@ -7,7 +7,7 @@ class Cancion extends Model{
     protected $table      = 'canciones';
     // Uncomment below if you want add primary key
     protected $primaryKey = 'id_cancion';
-    protected $allwedFields=['id_artista','nombre','duracion','fecha'];
+    protected $allowedFields=['id_artista','nombre','duracion','fecha'];
 
     public function Listado_Canciones(){
         //Una consulta para traer los datos de la tabla para luego ingresarlos a la tabla creda con HTML

@@ -4,6 +4,7 @@
 <br/>
 <br/>
         <table class="table table-light">
+        <?php $i=1;?>
             <thead class="thead-light">
                 <tr>
                     <th>#</th>
@@ -17,7 +18,7 @@
             <tbody>
             <?php foreach($Listado_Canciones as $cancion):?>
                 <tr>
-                    <td><?php echo $cancion->id_cancion;?></td>
+                    <td><?php echo $i++?></td>
                     <td><?php echo $cancion->Nombre_Cancion;?></td>
                     <td><?php echo $cancion->Nombre_Artista;?></td>
                     <td><?php echo $cancion->duracion;?></td>

@@ -48,8 +48,8 @@ class Login extends Controller{
 
         }
         else{
-            $usuario=$this->request->getPost('usuario');
-            $password=$this->request->getPost('password');
+            $usuario=$this->request->getVar('usuario');
+            $password=$this->request->getVar('password');
             return $this->response->redirect(site_url('/listar'));
 
         }
@@ -86,7 +86,7 @@ class Login extends Controller{
                 'usuario'=>$this->request->getPost('usuario'),
                 'password'=>$this->request->getPost('password'),
             ];
-            $Model_Log->protect(false)->insert($datos);
+            $Model_Log->insert($datos);
             $session=session();
             $session->setFlashdata('mensaje2','Usuario registrado correctamente');
             //$Model_Log->Crear($datos);

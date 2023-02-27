@@ -16,6 +16,7 @@ ob_start();
 <h1 class="card-body text-center">CANCIONES</h1>
 <div class="container">
         <table class="table table-light">
+        <?php $i=1;?>
             <thead class="thead-light">
                 <tr>
                     <th>#</th>
@@ -28,7 +29,7 @@ ob_start();
             <tbody>
             <?php foreach($Generar_reporte as $cancion):?>
                 <tr>
-                    <td><?php echo $cancion->id_cancion;?></td>
+                    <td><?php echo $i++?></td>
                     <td><?php echo $cancion->Nombre_Cancion;?></td>
                     <td><?php echo $cancion->Nombre_Artista;?></td>
                     <td><?php echo $cancion->duracion;?></td>
@@ -37,7 +38,6 @@ ob_start();
             <?php endforeach; ?>
             </tbody>
         </table>
-        <a href="javascript:window.print()" onclick="Window.print()" class="btn btn-info">Generear Reporte</a>
 
 </div>
 </body>

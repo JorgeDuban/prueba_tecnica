@@ -9,7 +9,7 @@ class Login_Model extends Model{
     protected $returnType =User::class;
     // Uncomment below if you want add primary key
     protected $primaryKey = 'id_usuario';
-    protected $allwedFields=['usuario','password'];
+    protected $allowedFields=['usuario','password'];
     public function validar(string $colunm, string $value){
         return $this->where($colunm, $value)->first();
         
